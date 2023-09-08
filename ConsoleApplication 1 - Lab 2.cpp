@@ -7,17 +7,24 @@ using namespace std;
 
 int main()
 {
-    float A; 
+    float A;
     float B;
     float X;
 
-    std::cout << "5";
+    cout << "Hello, my name is Anastasia and I will be solving a problem" << endl; 
+
+    cout << " Please enter a value for A";
     cin >> A;
 
-    cout << "A=" << A << endl;
+    cout << "A=" << A << endl; 
+    
+    cout << " Please enter a value for B";
+    cin >> B;
+    cout << "B=" << B << endl; 
 
-    B = (A * 4) + 1; 
-    cout << "And B=" << B << endl;
+    X= -B/A;  
+    cout << A << "X + " << B << "= " << X << endl;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
